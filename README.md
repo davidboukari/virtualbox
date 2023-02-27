@@ -1,5 +1,17 @@
 # virtualbox
 
+```
+yum install qt5-qttools-libs-help
+yum install qt5-qtx11extras
+yum install vulkan
+yum install gcc
+yum install kernel-devel
+
+rpm -i Virtualbox***
+
+```
+
+
 ```bash
 yum search virtualbox
 sudo yum install kernel-devel kernel-devel-$(uname -r) kernel-headers kernel-headers-$(uname -r) make patch gcc
